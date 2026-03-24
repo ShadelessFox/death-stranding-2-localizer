@@ -21,4 +21,10 @@ Example `localization.json` file:
 }
 ```
 
-It will change the text "New Game" to "⭐ Begin a new adventure" in the main menu.
+The `mode` specifies when the text is shown:
+
+- `default` the text will be shown only if subtitles are enabled
+- `always` the text will be shown always regardless of subtitle options
+- `never` the text will never be shown regradless of subtitle options
+
+The example above changes the text "New Game" to "⭐ Begin a new adventure" in the main menu.
