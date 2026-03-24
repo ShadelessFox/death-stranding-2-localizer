@@ -1,0 +1,9 @@
+[submodule "libs/detours"]
+	path = libs/detours
+	url = https://github.com/microsoft/Detours
+[submodule "libs/json"]
+	path = libs/json
+	url = https://github.com/nlohmann/json
+[submodule "libs/quickdllproxy"]
+	path = libs/quickdllproxy
+	url = https://github.com/Nukem9/QuickDllProxy
