@@ -7,7 +7,7 @@
 
 ### Example
 
-The repository contains a dump of all localizable strings in the game as of version 1.0.49.0.
+The repository contains a dump of all localizable strings in the game as of version 1.1.53.0.
 You don't need to distribute the entire file; instead, include just the changed strings.
 
 Example `localization.json` file:
