@@ -36,3 +36,6 @@ The example above changes the text "New Game" to "⭐ Begin a new adventure" in 
 > [!IMPORTANT]
 > Some texts consist purely of `　` (U+3000) or other whitespace symbols. Trimming them **will** result
 > in the game showing placeholder text `« No translated or source text`.
+> 
+> To figure out which object corresponds to a particular in-game text, you can replace `localization.json` with `localization_debug.json`
+> (don't forget to rename it). It contains all texts with a UUID prefix corresponding to the entry in the file.
