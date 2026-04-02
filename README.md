@@ -27,4 +27,12 @@ The `mode` specifies when the text is shown:
 - `always` the text will be shown always regardless of subtitle options
 - `never` the text will never be shown regradless of subtitle options
 
+> [!NOTE]
+> You may want to enforce subtitles to be shown for in-game text written in a foreign language. And vice versa, hide
+> subtitles for in-game text written in the same language.
+
 The example above changes the text "New Game" to "⭐ Begin a new adventure" in the main menu.
+
+> [!IMPORTANT]
+> Some texts consist purely of `　` (U+3000) or other whitespace symbols. Trimming them **will** result
+> in the game showing placeholder text `« No translated or source text`.
